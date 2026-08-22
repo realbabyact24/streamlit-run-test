@@ -13,7 +13,6 @@ import json
 import hashlib
 
 # ====================== LOAD KEYS ======================
-load_dotenv()
 api_key = os.getenv("XAI_API_KEY")
 access_key = os.getenv("APP_ACCESS_KEY")
 x_bearer = os.getenv("X_BEARER_TOKEN")
